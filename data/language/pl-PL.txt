@@ -1,4 +1,4 @@
-﻿# STR_XXXX part is read and XXXX becomes the string id number.
+# STR_XXXX part is read and XXXX becomes the string id number.
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
 STR_0028    :Statek piracki
@@ -3022,9 +3022,7 @@ STR_6128    :The file could not be loaded as some of the objects referenced in i
 STR_6129    :Skopiuj wybrany przedmiot do schowka
 STR_6130    :Skopiuj listę do schowka
 STR_6131    :Object source
-STR_6193    :{COMMA16} gość
-STR_6194    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA16} gość
-STR_6195    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA16} gość
+
 #############
 # Scenarios #
 #############

@@ -471,13 +471,6 @@ static void window_game_bottom_toolbar_draw_left_panel(rct_drawpixelinfo *dpi, r
         STR_BOTTOM_TOOLBAR_NUM_GUESTS_INCREASE,
     };
 
-	static const rct_string_id guestCountFormatsSingular[] =
-	{
-		STR_BOTTOM_TOOLBAR_NUM_GUESTS_STABLE_SINGULAR,
-		STR_BOTTOM_TOOLBAR_NUM_GUESTS_DECREASE_SINGULAR,
-		STR_BOTTOM_TOOLBAR_NUM_GUESTS_INCREASE_SINGULAR,
-	};
-
     // Draw guests
     {
         rct_widget widget = window_game_bottom_toolbar_widgets[WIDX_GUESTS];
@@ -486,7 +479,7 @@ static void window_game_bottom_toolbar_draw_left_panel(rct_drawpixelinfo *dpi, r
 
         gfx_draw_string_centred(
             dpi,
-            gNumGuestsInPark == 1 ? guestCountFormatsSingular[gGuestChangeModifier] : guestCountFormats[gGuestChangeModifier],
+            guestCountFormats[gGuestChangeModifier],
             x,
             y,
             (gHoverWidget.window_classification == WC_BOTTOM_TOOLBAR && gHoverWidget.widget_index == WIDX_GUESTS ? COLOUR_WHITE : NOT_TRANSLUCENT(w->colours[0])),

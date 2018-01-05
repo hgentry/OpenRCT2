@@ -1,4 +1,4 @@
-﻿# STR_XXXX part is read and XXXX becomes the string id number.
+# STR_XXXX part is read and XXXX becomes the string id number.
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
 STR_0000    :
@@ -4472,9 +4472,7 @@ STR_6156    :Le nom est réservé
 STR_6157    :Console
 STR_6158    :Erreur lors de l'ouverture de ce fichier...{NEWLINE}Version incompatible de RCTC : {COMMA16}
 STR_6158    :Lisser le voisinage proche
-STR_6193    :{COMMA16} visiteur
-STR_6194    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA16} visiteur
-STR_6195    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA16} visiteur
+
 
 #############
 # Scenarios #

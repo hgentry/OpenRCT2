@@ -1,4 +1,4 @@
-﻿# Everyone is allowed to edit this document to benefit the language.
+# Everyone is allowed to edit this document to benefit the language.
 # STR_XXXX part is read and XXXX becomes the string id number.
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
@@ -4479,9 +4479,7 @@ STR_6170    :Anpassa
 STR_6171    :Sök
 STR_6172    :{SMALLFONT}{BLACK}Sök
 STR_6173    :Vänligen skriv in ett namn att söka:
-STR_6193    :{COMMA16} gäst
-STR_6194    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA16} gäst
-STR_6195    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA16} gäst
+
 #############
 # Scenarion #
 ################
