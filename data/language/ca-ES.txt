@@ -1,4 +1,4 @@
-# STR_XXXX part is read and XXXX becomes the string id number.
+﻿# STR_XXXX part is read and XXXX becomes the string id number.
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
 STR_0000    :
@@ -4473,7 +4473,9 @@ STR_6161    :Mostra les línies de la quadrícula
 STR_6162    :{LEFTGUILLEMET}Wild Mouse{RIGHTGUILLEMET} giratori
 STR_6163    :Vagons amb forma de ratolí que es mouen a tota velocitat per giravolts i petits descensos, girant suaument per desorientar els passatgers.
 STR_6164    :{WHITE}{CROSS}
-
+STR_6193    :{COMMA16} visitant
+STR_6194    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA16} visitant
+STR_6195    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA16} visitant
 #############
 # Scenarios #
 ################

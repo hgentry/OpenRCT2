@@ -1,4 +1,4 @@
-# STR_XXXX part is read and XXXX becomes the string id number. STR_1672
+﻿# STR_XXXX part is read and XXXX becomes the string id number. STR_1672
 # Everything after the colon and before the new line will be saved as the string.
 # Use # at the beginning of a line to leave a comment.
 STR_0000    :
@@ -4466,6 +4466,9 @@ STR_6158    :No se pudo cargar este archivo...{NEWLINE}Version RCT incompatible:
 STR_6159    :Próximo Suave
 STR_6160    :{WINDOW_COLOUR_2}Vehículos Disponibles: {BLACK}{STRING}
 STR_6161    :Alternar Líneas de Cuadrícula
+STR_6193    :{COMMA16} visitante
+STR_6194    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA16} visitante
+STR_6195    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA16} visitante
 
 ##############
 # Escenarios #
